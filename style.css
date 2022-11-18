@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+}
+
+#bloco-lateral {
+  background-color: rgb(127, 182, 133);
+  width: 25vw;
+  height: 100vh;
+  position: absolute;
+}
+
+#imagem-e-links {
+  width: 25vw;
+  height: 60%;
+  position: absolute;
+  top: calc(50vh - 30%);
+}
+
+#imagem-perfil {
+  border-radius: 100%;
+  border: 10px solid rgba(221, 174, 126);
+  width: 16vw;
+  margin-left: 57px;
+}
+
+.lista-sobre {
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  list-style-type: none;
+  line-height: 50px;
+}
+
+nav {
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 25%);
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+a:hover {
+  color: rgb(239, 111, 108);
+}
+
+main {
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+}
+
+
+#bloco-principal {
+  text-align: left;
+  background-color: white;
+  width: 70vw;
+  height: 100%;
+  position: absolute;
+  left: 40%;
+  top: calc(70vh - 50vh);
+}
+
+#títulos {
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+span {
+  color: rgba(221, 174, 126);
+}
+
+#contato {
+  font-family: monospace;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.descrição {
+  font-family: monospace;
+  font-size: 20px;
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.icons-redes {
+  width: 50px;
+  margin: 30px 30px 15px 0px;
+}
+
+
+.bloco-principal-conhe-obj {
+  text-align: left;
+  background-color: white;
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  left: 40%;
+  top: calc(67vh - 50vh);
+}
+
+#ícones {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 100px;
+  top: calc(50vh - 100px);
+}
